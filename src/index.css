@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+@font-face {
+  font-family: Comfortaa-Bold;
+  src: url('./assets/fonts/Comfortaa-Bold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: Comfortaa-Light;
+  src: url('./assets/fonts/Comfortaa-Light.ttf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: Comfortaa-Bold, Comfortaa-Light, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
