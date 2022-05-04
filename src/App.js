@@ -18,6 +18,10 @@ function App() {
 export default App
 
 const Wrapper = styled.div`
+  @media screen and (max-width: 960px) {
+    margin: 0;
+    padding: 0;
+  }
   height: 100vh;
   width: 100vw;
   display: flex;
